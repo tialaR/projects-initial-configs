@@ -1,0 +1,23 @@
+{
+  // Automatically fixes linting errors on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always"
+  },
+  // ESLint configuration
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // Enables automatic formatting with Prettier
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Excludes node_modules and dist from ESLint analysis
+  "files.exclude": {
+    "node_modules": true,
+    "dist": true
+  },
+  // Configuration to improve ESLint performance
+  "eslint.workingDirectories": ["./src"]
+}
