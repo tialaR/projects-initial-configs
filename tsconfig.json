@@ -3,5 +3,21 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "types": ["vite-plugin-svgr"],
+    "baseUrl": "./",
+    "paths": {
+      "#hooks/*": ["src/hooks/*"],
+      "#components/*": ["src/components/*"],
+      "#pages/*": ["src/pages/*"],
+      "#styles/*": ["src/styles/*"],
+      "#utils/*": ["src/utils/*"],
+      "#assets/*": ["src/assets/*"],
+      "#config/*": ["src/config/*"],
+      "#layouts/*": ["src/layouts/*"],
+      "#routes/*": ["src/routes/*"],
+      "#services/*": ["src/services/*"]
+    }
+  }
 }
