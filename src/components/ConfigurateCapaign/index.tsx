@@ -1,0 +1,1 @@
+export { CampaignForm as ConfigurateCampaignForm } from "./CampaignForm";
