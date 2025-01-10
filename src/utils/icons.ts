@@ -1,0 +1,45 @@
+import Whatsapp from "../assets/svg/whatsapp.svg?react";
+import ActiveCampaign from "../assets/svg/activeCampaign.svg?react";
+import CreateCampaign from "../assets/svg/createCampaign.svg?react";
+import FollowCampaign from "../assets/svg/followCampaign.svg?react";
+import Home from "../assets/svg/home.svg?react";
+import Eye from "../assets/svg/eye.svg?react";
+import Upload from "../assets/svg/upload.svg?react";
+import Search from "../assets/svg/search.svg?react";
+import Reports from "../assets/svg/reports.svg?react";
+import Logout from "../assets/svg/logout.svg?react";
+import ArrowDown from "../assets/svg/arrow-down.svg?react";
+import ArrowUp from "../assets/svg/arrow_up.svg?react";
+import ArrowDownSmall from "../assets/svg/arrow-down-small.svg?react";
+import ArrowRight from "../assets/svg/arrow-right.svg?react";
+import ArrowLeft from "../assets/svg/arrow-left.svg?react";
+import ArrowFilledDown from "../assets/svg/arrow-filled-down.svg?react";
+import ArrowUpDown from "../assets/svg/arrow-up-down.svg?react";
+import ChevronRight from "../assets/svg/chevron-right.svg?react";
+import Close from "../assets/svg/close.svg?react";
+import MedalGold from "../assets/svg/medal-gold.svg?react";
+import MedalSilver from "../assets/svg/medal-silver.svg?react";
+
+export const iconMap = {
+    whatsapp: Whatsapp,
+    activeCampaign: ActiveCampaign,
+    createCampaign: CreateCampaign,
+    followCampaign: FollowCampaign,
+    upload: Upload,
+    search: Search,
+    reports: Reports,
+    home: Home,
+    eye: Eye,
+    logout: Logout,
+    arrowDown: ArrowDown,
+    arrowDownSmall: ArrowDownSmall,
+    arrowRight: ArrowRight,
+    arrowLeft: ArrowLeft,
+    arrowFilledDown: ArrowFilledDown,
+    arrowUp: ArrowUp,
+    arrowUpDown: ArrowUpDown,
+    chevronRight: ChevronRight,
+    close: Close,
+    medalGold: MedalGold,
+    medalSilver: MedalSilver,
+} as const;
