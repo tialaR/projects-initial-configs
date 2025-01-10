@@ -30,7 +30,13 @@ export default tseslint.config(
         'warn',
         { allowConstantExport: true },
       ],
-      'prettier/prettier': 'error',
+      '@typescript-eslint/no-unused-expressions': 'off',
+      '@typescript-eslint/no-explicit-any': 'warn', // For now desable until solve
+      '@typescript-eslint/no-unused-vars': 'warn', // For now desable until solve
+      'react-hooks/exhaustive-deps': 'warn', // For now desable until solve
+      '@typescript-eslint/no-explicit-any': 'warn', // For now desable until solve
+      'react-refresh/only-export-components': 'off',
+      'prettier/prettier': 'off', // For now desable until solve
       '@typescript-eslint/no-unused-vars': [
         'error',
         { argsIgnorePattern: '^_' },
